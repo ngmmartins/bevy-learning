@@ -1,0 +1,13 @@
+[package]
+name = "bevy-learning"
+version = "0.1.0"
+edition = "2021"
+description = "Set of projects to learn and experiment with Bevy."
+authors = ["Nuno Martins <nmartins10@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = ["my-bevy-game"]
+
+[dependencies]
